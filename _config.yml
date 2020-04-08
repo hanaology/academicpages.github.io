@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -83,7 +83,7 @@ author:
   name             : "Hannah E. Dahlberg-Dodd, Ph.D."
   avatar           : "Hannah001.jpg"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  location         : "The Great Lakes"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=HRiRnioAAAAJ"
@@ -228,14 +228,14 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+#  - scope:
+#      path: ""
+#      type: portfolio
+#    values:
+#      layout: single
+#      author_profile: true
+#      share: true
+#      comment: true
   # _talks
   - scope:
       path: ""
